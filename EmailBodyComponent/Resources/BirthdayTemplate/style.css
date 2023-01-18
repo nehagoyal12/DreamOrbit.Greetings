@@ -1,0 +1,220 @@
+.welcome-template {
+  border: 1px solid #e9e4e4;
+  padding: 30px;
+  width: 742px;
+  height: 986px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-2 {
+  margin-left: 86px;
+  margin-top: 41px;
+}
+
+.employee-pic {
+  width: 127px;
+  border-radius: 5px 50%;
+  border: 2px solid #0072ab;
+}
+
+.employee-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pyramid-row {
+  display: inline-block;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.other-logo {
+  width: 100px;
+  height: auto;
+  margin-right: 16px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.background-img-1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.background-img-2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.aboard {
+  color: #007eb7;
+  font-weight: 600;
+}
+
+.employee-name {
+  margin-top: 10px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.email-text-content {
+  margin-top: 53px;
+}
+
+.other-companies {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.up-arrows {
+  position: absolute;
+  bottom: 10px;
+  right: -25px;
+}
+
+.employee-details {
+  display: flex;
+  justify-content: center;
+}
+
+.border-left {
+  position: absolute;
+  left: 0;
+  height: 90%;
+}
+
+.border-right {
+  position: absolute;
+  top: -318px;
+  height: 65%;
+  width: 3px;
+  transform: rotate(90deg);
+  right: 46%;
+}
+
+.logo-6 {
+  width: 203px;
+}
+
+.logo-4 {
+  margin-right: 77px;
+}
+
+.employee-info {
+  position: relative;
+  width: 100%;
+  font-size: 15px;
+
+}
+
+.employee-detail-pic-1 {
+  position: absolute;
+  left: 3px;
+  top: 0px;
+  /* background-color: red; */
+  width: 208px;fv
+}
+
+.employee-detail-pic-3 {
+  position: absolute;
+  left: 73px;
+  top: 56px;
+  width: 208px;
+  height: 57px;
+}
+
+.employee-detail-pic-6 {
+  position: absolute;
+  top: 111px;
+  left: 49PX;
+  width: 208px;
+}
+
+.icon-5{
+  margin-left: 21px;
+}
+
+
+.employee-detail-pic-5 {
+  position: absolute;
+  top: 168px;
+  left: 189px;
+  width: 95px;
+  height: 64px;
+}
+
+.employee-detail-pic-2 {
+  position: absolute;
+  top: 112px;
+  right: 52px;
+  width: 208px;
+
+
+}
+
+.employee-detail-pic-4 {
+  position: absolute;
+  right: 73px;
+  top: 56px;
+  width: 208px;
+}
+
+.employee-detail-pic-7 {
+
+  position: absolute;
+    right: 52px;
+    top: 0px;
+    width: 208px;
+}
+
+.employee-detail-pic-8 {
+  position: absolute;
+  top: 169px;
+  right: 189px;
+  width: 96px;
+}
+
+.detail-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-title-1 {
+  font-weight: 600;
+}
+.detail-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+.row-align{
+height: 59px;
+}
+
+.icon-8{
+ margin-left: 45px;
+}

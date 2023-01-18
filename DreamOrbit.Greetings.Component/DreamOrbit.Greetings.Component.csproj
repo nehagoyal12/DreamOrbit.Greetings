@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DreamOrbit.Greetings.Data\DreamOrbit.Greetings.Data.csproj" />
+    <ProjectReference Include="..\DreamOrbit.Greetings.ErrorLog\DreamOrbit.Greetings.ErrorLog.csproj" />
+    <ProjectReference Include="..\EmailBodyComponent\DreamOrbit.Greetings.EmailComponent.csproj" />
+  </ItemGroup>
+
+</Project>

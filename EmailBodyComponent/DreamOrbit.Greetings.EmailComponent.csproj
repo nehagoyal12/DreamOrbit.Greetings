@@ -1,0 +1,155 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\BirthdayTemplate\BirthdayTemplate.html" />
+    <None Remove="Resources\BirthdayTemplate\images\360_Logica-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\Acuma-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\Backgroud_1-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\Background-02-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\Background_2-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\Capture-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\dreamorbit-logo-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\EDP-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\employee-pic.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\Faichi-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\Group 14050.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\icon\email.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\icon\Group 14566.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\icon\Group 14567.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\icon\Id Tag.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\icon\Path 10371.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\icon\Path 10381.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\icon\Path 10387.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\icon\work.jpg" />
+    <None Remove="Resources\BirthdayTemplate\images\info-images\2.1-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\info-images\2.2-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\info-images\2.3-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\info-images\2.4-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\info-images\Path_11151-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\info-images\Path_11152-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\info-images\Path_11153-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\info-images\Path_11154-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\mcconsulting-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\Saksoft_logo_Final-01-01-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\terafast_net_logo-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\images\uparraow-removebg-preview.png" />
+    <None Remove="Resources\BirthdayTemplate\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\BirthdayTemplate.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\360_Logica-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\Acuma-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\Backgroud_1-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\Background-02-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\Background_2-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\Capture-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\dreamorbit-logo-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\EDP-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\employee-pic.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\Faichi-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\Group 14050.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\icon\email.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\icon\Group 14566.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\icon\Group 14567.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\icon\Id Tag.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\icon\Path 10371.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\icon\Path 10381.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\icon\Path 10387.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\icon\work.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\info-images\2.1-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\info-images\2.2-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\info-images\2.3-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\info-images\2.4-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\info-images\Path_11151-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\info-images\Path_11152-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\info-images\Path_11153-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\info-images\Path_11154-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\mcconsulting-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\Saksoft_logo_Final-01-01-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\terafast_net_logo-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\images\uparraow-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\BirthdayTemplate\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DreamOrbit.Greetings.Data\DreamOrbit.Greetings.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stubble.Core" Version="1.10.8" />
+  </ItemGroup>
+
+</Project>
